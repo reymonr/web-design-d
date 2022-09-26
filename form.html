@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML: Form</title>
+  </head>
+  <body>
+    <h3>Learn HTML Form Components</h3>
+
+    <form action="" method="POST">
+      <label>Username : </label>
+      <input type="text" name="username" id="username">
+      <br>
+
+      <label>Password : </label>
+      <input type="password" name="userpass" id="userpass">
+      <br>
+
+      <label>Email Address : </label>
+      <input type="email" name="useremail" id="useremail">
+      <br>
+
+      <label>Choose a File : </label>
+      <input type="file" name="userfile" id="userfile">
+      <br>
+
+      <label>Pick a Month : </label>
+      <input type="month" name="usermonth" id="usermonth">
+      <br>
+
+      <label>Input a Number : </label>
+      <input type="number" name="usernumber" id="usernumber">
+      <br>
+
+      <label>Pilihan Ekstrakurikuler : </label>
+      <input type="checkbox" name="ekstrakurikuler" id="ekstrakurikuler" value="Choir"> Choir 
+      <input type="checkbox" name="ekstrakurikuler" id="ekstrakurikuler" value="Pathfinder"> Pathfinder 
+      <input type="checkbox" name="ekstrakurikuler" id="ekstrakurikuler" value="Adventist Youth"> Adventist Youth
+      <br>
+
+      <label>Program Studi : </label>
+      <input type="radio" name="prodi" id="prodi" value="Sistem Informasi"> Sistem Informasi
+      <input type="radio" name="prodi" id="prodi" value="Informatika"> Informatika
+      <br>
+
+      <label>Masukkan Saran Anda : </label>
+      <textarea name="saran" id="saran" cols="30" rows="10"></textarea>
+      <br>
+
+      <label>Pilih Fakultas : </label>
+      <select name="fakultas" id="fakultas">
+        <optgroup label="Sosial Humaniora">
+          <option value="FEB">Fakultas Ekonomi dan Bisnis</option>
+          <option value="FFIL">Fakultas Filsafat</option>
+          <option value="FKIP">Fakultas Keguruan dan Ilmu Pendidikan</option>
+          <option value="ASMIK">ASMI Klabat</option>
+        </optgroup>
+        <optgroup label="Sains">
+          <option value="FIK">Fakultas Ilmu Komputer</option>
+          <option value="FKEP">Fakultas Keperawatan</option>
+          <option value="FPER">Fakultas Pertanian</option>
+        </optgroup>
+      </select>
+      <br>
+
+      <input type="button" value="Register">
+      <input type="submit" value="Send Data">
+    </form>
+
+  </body>
+</html>
