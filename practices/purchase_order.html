@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Order Request Form</title>
+  </head>
+  <body>
+    <p> <a href="../index.html#practices">Back to Home</a> </p>
+    
+    <h1>Purchase Order Request Form</h1>
+
+    <form action="">
+      <table>
+        <tr>
+          <td>Req. No</td>
+          <td> : <input type="text" name="req_no" id="req_no"> </td>
+          <td>Purchase Order No</td>
+          <td> : <input type="text" name="purchase_order_no" id="purchase_order_no"> </td>
+        </tr>
+        <tr>
+          <td>Account No</td>
+          <td> : <input type="text" name="account_no" id="account_no"> </td>
+          <td>Account Name</td>
+          <td> : <input type="text" name="account_name" id="account_name"> </td>
+        </tr>
+        <tr>
+          <td>Teacher's Name</td>
+          <td>
+            : <select name="teacher" id="teacher">
+              <option value="">-- Choose Teacher --</option>
+              <option value="John Doe">John Doe</option>
+              <option value="Marry Anne">Marry Anne</option>
+              <option value="Nicole Admen">Nicole Admen</option>
+            </select>
+          </td>
+          <td>Upload Signature</td>
+          <td> : <input type="file" alt="signature"></td>
+        </tr>
+        <tr>
+          <td>Your Name</td>
+          <td> : <input type="text" name="name" id="name"> </td>
+          <td>Your Email Address</td>
+          <td> : <input type="email" name="email" id="email"> </td>
+        </tr>
+        <tr>
+          <td>Phone Number</td>
+          <td> : <input type="tel" name="phone" id="phone"> </td>
+          <td>Date</td>
+          <td> : <input type="date" name="date" id="date"> </td>
+        </tr>
+      </table>
+
+      <p><strong>Special Instructions:</strong></p>
+      <table border="1">
+        <tr>
+          <th>Item No.</th>
+          <th>Description</th>
+          <th>Quantity</th>
+          <th>Unit<br>(each, pkg, case)</th>
+          <th>Per-Unit<br>Price</th>
+          <th>Line Item Total<br>Price</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+          <td colspan="5"><strong>Total Price</strong></td>
+          <td><input type="text" name="total_price" id="total_price"></td>
+        </tr>
+      </table>
+      <br>
+      
+      <input type="checkbox" name="in_stock" id="in_stock"> In Stock
+      <input type="checkbox" name="lead_time" id="lead_time"> Lead Time <input type="text" name="lead_time_value" id="lead_time_value">
+      <br>
+
+      <p>Shipping Preference: <input type="radio" name="shipping" id="shipping"> Ground 
+      <input type="radio" name="shipping" id="shipping"> Express</p>
+
+      <table>
+        <tr>
+          <td>Complete Name of Vendor</td>
+          <td> : <input type="text" name="vendor_name" id="vendor_name"></td>
+          <td>Name of Contact</td>
+          <td> : <input type="text" name="contact_name" id="contact_name"></td>
+        </tr>
+        <tr>
+          <td>Address of Vendor</td>
+          <td> : <input type="text" name="vendor_address" id="vendor_address"></td>
+          <td>Contact's Phone Number</td>
+          <td> : <input type="tel" name="contact_phone" id="contact_phone"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td> : <input type="text" name="vendor_address2" id="vendor_address2"></td>
+          <td>Contact's Fax Number</td>
+          <td> : <input type="text" name="contact_fax" id="contact_fax"></td>
+        </tr>
+      </table>
+
+      <p>Please attach any web printout or email or faxed quotation received from vendor.</p>
+    </form>
+  </body>
+</html>
