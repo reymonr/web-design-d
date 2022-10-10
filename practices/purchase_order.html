@@ -11,7 +11,7 @@
     
     <h1>Purchase Order Request Form</h1>
 
-    <form action="">
+    <form action="login.js">
       <table>
         <tr>
           <td>Req. No</td>
@@ -36,7 +36,7 @@
             </select>
           </td>
           <td>Upload Signature</td>
-          <td> : <input type="file" alt="signature"></td>
+          <td> : <input type="file"></td>
         </tr>
         <tr>
           <td>Your Name</td>
@@ -53,7 +53,7 @@
       </table>
 
       <p><strong>Special Instructions:</strong></p>
-      <table border="1">
+      <table>
         <tr>
           <th>Item No.</th>
           <th>Description</th>
@@ -63,28 +63,28 @@
           <th>Line Item Total<br>Price</th>
         </tr>
         <tr>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="item1"></td>
+          <td><input type="text" name="desc1"></td>
+          <td><input type="text" name="qty1"></td>
+          <td><input type="text" name="unit1"></td>
+          <td><input type="text" name="perunit1"></td>
+          <td><input type="text" name="total1"></td>
         </tr>
         <tr>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="item2"></td>
+          <td><input type="text" name="desc2"></td>
+          <td><input type="text" name="qty2"></td>
+          <td><input type="text" name="unit2"></td>
+          <td><input type="text" name="perunit2"></td>
+          <td><input type="text" name="total2"></td>
         </tr>
         <tr>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
-          <td><input type="text" name="" id=""></td>
+          <td><input type="text" name="item3"></td>
+          <td><input type="text" name="desc3"></td>
+          <td><input type="text" name="qty3"></td>
+          <td><input type="text" name="unit3"></td>
+          <td><input type="text" name="perunit3"></td>
+          <td><input type="text" name="total3"></td>
         </tr>
         <tr>
           <td colspan="5"><strong>Total Price</strong></td>
@@ -97,8 +97,8 @@
       <input type="checkbox" name="lead_time" id="lead_time"> Lead Time <input type="text" name="lead_time_value" id="lead_time_value">
       <br>
 
-      <p>Shipping Preference: <input type="radio" name="shipping" id="shipping"> Ground 
-      <input type="radio" name="shipping" id="shipping"> Express</p>
+      <p>Shipping Preference: <input type="radio" name="shipping" id="ground"> Ground 
+      <input type="radio" name="shipping" id="express"> Express</p>
 
       <table>
         <tr>
